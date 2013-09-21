@@ -22,6 +22,10 @@ end
 
 gem 'jquery-rails'
 
+group :development do
+  gem 'annotate', '2.5.0'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -30,7 +34,7 @@ gem 'jquery-rails'
 
 # Use unicorn as the web server
 # gem 'unicorn'
-
+gem 'bcrypt-ruby', '3.0.1'
 # Deploy with Capistrano
 # gem 'capistrano'
 
